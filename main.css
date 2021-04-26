@@ -1,0 +1,44 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background: beige;
+}
+header, footer {
+    flex: 0 75px;
+    border:none;
+}
+header img {
+    flex: 0 75px;
+    align-content: center;
+    background-size: cover; 
+    max-height: 750px;
+    min-width: 100%;
+    background-attachment: fixed;
+}
+
+main {
+    display: flex;
+    margin: 20px;
+}
+
+article {
+    justify-content: flex-start;
+    background: beige;
+    padding: 10px;
+}
+
+aside {
+    display: flex;
+    background: skyblue;
+    padding: 10px;
+    border: 2px solid black;
+    justify-content: flex-end;
+}
+
+footer {
+    padding: 30px;
+    align-content: center;
+    max-height: 20px;
+}
